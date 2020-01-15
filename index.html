@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kinjaz</title>
+        <link rel="stylesheet type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width,inital-scale-1.0">
+        <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row clearfix">
+                    <img src="images/7.jpeg" class="logo">
+                    <ul class="main-nav animated slideInDown" id="check">
+                        <li><a href ="#">TIMING</a></li>
+                        <li><a href ="#">CONTACT US</a></li>
+                        <li><a href ="#">HOME</a></li>
+                        <li><a href ="#">LOG IN</a></li>
+
+                    </ul>
+                    <a href="#" class="icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+                </div>
+            </nav> 
+            <div class="main-header">
+            <h1>
+                Welcome to<span class ="change"> Kinjaz</span><br>
+                Respect All Fear None
+            </h1>
+            <a href="#" class="btn btn-full">Log in</a>
+            <a href="#" class="btn btn-half">Contacs Us</a>
+            </div>
+        </header>
+    </body>
+    <script type="text/javascript">
+    function slideshow()
+    {
+       var x = document.getElementById('check');
+       if(x.style.display === "none"){
+           x.style.display="block"
+       }
+       else{
+           x.style.display="none";
+       }
+
+    }
+    </script>
+</html>
